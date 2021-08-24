@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" />
+    <title>Camera App</title>
+</head>
+
+<body>
+    <div class="video-container" style="align-items: center;">
+        <div class="frame" style="overflow: hidden; height: 95%;">
+            <video style="height: 100%;" autoplay></video>
+            <audio autoplay></audio>
+        </div>
+
+    </div>
+
+    <div class="filter-screen-parent"></div>
+    <div class="timer">
+        <span class="minute">00</span>:<span class="second">00</span>
+    </div>
+
+    <div class="side-icon" id="record-video">
+        <img style="margin-left:10px; margin-right: 10px" src="https://img.icons8.com/ultraviolet/40/000000/video-call.png"/>
+        Video
+    </div>
+
+    <div class="side-icon" id="click-picture">
+        <img style="margin-left:10px; margin-right: 10px" src="https://img.icons8.com/ultraviolet/40/4a90e2/camera.png"/>
+        Capture
+    </div>
+
+    <div class="filter-container">
+        <div style="background-color: #f4a2613d;" class="filter"></div>
+        <div style="background-color: #e85d0440;" class="filter"></div>
+        <div style="background-color: #ad5d6d7a;" class="filter"></div>
+        <div style="background-color: #2195f323;" class="filter"></div>
+        <div style="background-color: #4caf4f31;" class="filter"></div>
+    </div>
+
+    <div class="side-icon zoom">
+        <div class="zoom-in"><img src="https://img.icons8.com/office/35/000000/zoom-in--v1.png"/></div>
+        <div class="zoom-out"><img src="https://img.icons8.com/office/35/000000/zoom-out.png"/></div>
+    </div>
+    <div class="side-icon show-gallery">
+        <img style="margin-left:10px; margin-right: 10px" src="https://img.icons8.com/ultraviolet/40/000000/gallery.png"/>
+        Gallery
+    </div>
+    
+    
+     <!-- <div class="modal">
+        <div class="title" style="background-color: lightslategray;  height: 8%;">
+            <span style="margin-top: 5px; display: inline-block; font-size: 40px;"><img style ="margin-right: 10px;"src="https://img.icons8.com/material-outlined/35/000000/stack-of-photos--v2.png"/>GALLERY</span>
+            <span style="float: right; margin-top: 5px; margin-right: 20px; cursor: pointer; font-size: 40px;"><img src="https://img.icons8.com/fluent/48/fa314a/close-window.png"/></span>
+        </div>
+        <div class="gallery"></div>
+    </div>  -->
+    
+    <script src="dbScript.js"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
